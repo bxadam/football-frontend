@@ -1,0 +1,34 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1280px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #04963e;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.header__home {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.header__profile {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.header__user-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
