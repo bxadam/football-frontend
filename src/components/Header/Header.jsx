@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import SearchBar from "../SearchBar/SearchBar";
+import pikachu from "../../assets/pikachu.jpg";
 
 function Header() {
   return (
@@ -17,9 +18,9 @@ function Header() {
         </div>
         <SearchBar></SearchBar>
         <div className="header__user-info">
-          <button className="header__login"></button>
-          <button className="header__register"></button>
-          <img src="user avatar" alt="avatar" className="header__avatar" />
+          <button className="header__login">Log In</button>
+          <button className="header__register">Register</button>
+          <img src={pikachu} alt="avatar" className="header__avatar" />
         </div>
       </div>
     </>
