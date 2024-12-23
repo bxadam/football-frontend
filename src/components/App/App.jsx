@@ -6,6 +6,7 @@ import Preloader from "../Preloader/Preloader";
 import Header from "../Header/Header";
 import Login from "../LoginModal/LoginModal";
 import Register from "../RegisterModal/RegisterModal";
+import Footer from "../Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,6 +34,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Footer></Footer>
       <Login></Login>
       <Register></Register>
       <Preloader></Preloader>
