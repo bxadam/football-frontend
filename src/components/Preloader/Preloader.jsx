@@ -3,8 +3,8 @@ import "./Preloader.css";
 
 const Preloader = () => {
   return (
-    <div className="preloader-container">
-      <div className="soccer-ball"></div>
+    <div className="preloader">
+      <div className="preloader__ball"></div>
     </div>
   );
 };

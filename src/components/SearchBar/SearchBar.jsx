@@ -29,7 +29,7 @@ const SearchBar = ({ placeholder = "Search...", onSearch }) => {
         <option value="general">Players</option>
         <option value="users">Teams</option>
         <option value="hashtags">Leagues</option>
-        <option value="posts">Matches</option>
+        <option value="posts">Venues</option>
       </select>
       <input
         type="text"

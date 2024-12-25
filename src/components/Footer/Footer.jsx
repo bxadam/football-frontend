@@ -7,7 +7,7 @@ import ball from "../../assets/ball.svg";
 function Footer() {
   return (
     <>
-      <div className="footer-container">
+      <div className="footer">
         <div className="footer__author-container">
           <h2 className="footer__author-name">Brandon Adam</h2>
           <img src={pikachu} alt="avatar" className="footer__author-avatar" />

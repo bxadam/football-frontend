@@ -7,7 +7,7 @@ import pikachu from "../../assets/pikachu.jpg";
 function Header() {
   return (
     <>
-      <div className="header__container">
+      <div className="header">
         <div className="header__links">
           <Link to={"/home"} className="header__home">
             Home

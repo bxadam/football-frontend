@@ -1,4 +1,4 @@
-.preloader-container {
+.preloader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
   display: none;
 }
 
-.soccer-ball {
+.preloader__ball {
   width: 80px;
   height: 80px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ec/Soccer_ball.svg");
