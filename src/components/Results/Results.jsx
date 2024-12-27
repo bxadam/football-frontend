@@ -30,15 +30,17 @@ function Results(results) {
           </ul>
         </div>
         <div className="results__favorites">
-          <div className="results__favorites__add">
-            <h2 className="results__favorite-title">Add To Favorites</h2>
+          <div className="results__favorite__add">
+            <h2 className="results__favorite-title">
+              favorite your most important searches
+            </h2>
             <button className="results__favorite-btn">
               {" "}
-              Click to add selected card to favorites
+              Click to add selected result to favorites
             </button>
             <Link to="/favorite">View Favorites</Link>
           </div>
-          <div className="results__favorites__logo"></div>
+          <div className="results__favorite__logo"></div>
         </div>
       </div>
     </>
