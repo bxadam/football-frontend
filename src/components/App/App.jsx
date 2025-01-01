@@ -1,16 +1,15 @@
 import { useState, useEffect } from "react";
-import reactLogo from "../../assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Preloader from "../Preloader/Preloader";
 import Header from "../Header/Header";
 import Results from "../Results/Results";
+import Profile from "../Profile/Profile";
 import Login from "../LoginModal/LoginModal";
 import Register from "../RegisterModal/RegisterModal";
 import Footer from "../Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
   const [results, setResults] = useState([]);
 
   // useEffect(() => {
@@ -26,7 +25,10 @@ function App() {
   return (
     <>
       <Header />
-      <Results results={results}></Results>
+      <Routes>
+        <Route path="/" element={<Results />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
       <Footer></Footer>
       <Login></Login>
       <Register></Register>

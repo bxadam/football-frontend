@@ -4,11 +4,12 @@
   justify-content: space-between;
 }
 
-.footer__author-container {
+.footer__author {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 }
 
 .footer__author-name,
@@ -31,7 +32,6 @@
   border-radius: 50%;
   object-fit: cover;
   aspect-ratio: 1/1;
-  padding: 2.5px;
 }
 
 .footer__app-container {
@@ -48,6 +48,7 @@
 
 .footer__app-date,
 .footer__app-name {
+  font-weight: bold;
   margin: 0;
   padding: 2.5px;
 }

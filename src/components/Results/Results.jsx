@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import pikachu from "../../assets/pikachu.jpg";
 import "./Results.css";
+import ResultCard from "../ResultCard/ResultCard";
 function Results(results) {
   const { title, category, data } = results;
   // import result card class component and use results to render each card
@@ -13,19 +14,19 @@ function Results(results) {
           <h1 className="results__view-title">Your Results</h1>
           <ul className="results__list">
             <li className="list-item">
-              <img className="img" src={pikachu} alt="" />
+              <ResultCard></ResultCard>
             </li>
             <li className="list-item">
-              <img className="img" src={pikachu} alt="" />
+              <ResultCard></ResultCard>
             </li>
             <li className="list-item">
-              <img className="img" src={pikachu} alt="" />
+              <ResultCard></ResultCard>
             </li>
             <li className="list-item">
-              <img className="img" src={pikachu} alt="" />
+              <ResultCard></ResultCard>
             </li>
             <li className="list-item">
-              <img className="img" src={pikachu} alt="" />
+              <ResultCard></ResultCard>
             </li>
           </ul>
         </div>

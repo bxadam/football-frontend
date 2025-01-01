@@ -9,7 +9,7 @@ function Header() {
     <>
       <div className="header">
         <div className="header__links">
-          <Link to={"/home"} className="header__home">
+          <Link to={"/"} className="header__home">
             Home
           </Link>
           <Link to={"/profile"} className="header__profile">

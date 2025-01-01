@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="footer__author-container">
+        <div className="footer__author">
           <h2 className="footer__author-name">Brandon Adam</h2>
           <img src={pikachu} alt="avatar" className="footer__author-avatar" />
         </div>
