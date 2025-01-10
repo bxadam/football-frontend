@@ -8,19 +8,39 @@ import Login from "../LoginModal/LoginModal";
 import Register from "../RegisterModal/RegisterModal";
 import Footer from "../Footer/Footer";
 import { Routes, Route } from "react-router-dom";
+import { getLeagues, getPlayers, getTeams } from "../../utils/api";
 
 function App() {
-  const [results, setResults] = useState([]);
+  const [leagues, setLeagues] = useState([]);
+  const [players, setPlayers] = useState([]);
+  const [team, setTeam] = useState([]);
+
+  useEffect(() => {
+    getLeagues()
+      .then((res) => setLeagues(res.response))
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
+
+  useEffect(() => {
+    getPlayers()
+      .then((res) => setPlayers(res.response))
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
 
   // useEffect(() => {
-  //   call GET from API search
-  //     .then((data) => {
-  //       setItems(data); // Assuming data is an array
-  //     })
+  //   getTeams("Manchester United")
+  //     .then((res) => setTeam(res.response))
   //     .catch((error) => {
   //       console.error("Error fetching data:", error);
   //     });
-  // }, []);
+  // });
+
+  console.log(leagues);
+  console.log(players);
 
   return (
     <>

@@ -39,7 +39,7 @@ function Results(results) {
               {" "}
               Click to add selected result to favorites
             </button>
-            <Link to="/favorite">View Favorites</Link>
+            <Link to="/profile">View Favorites</Link>
           </div>
           <div className="results__favorite__logo"></div>
         </div>
