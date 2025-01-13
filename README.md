@@ -1,8 +1,11 @@
-# React + Vite
+# PokeApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web app that can pull information of Pokemon in the form of a Pokedex.
 
-Currently, two official plugins are available:
+It uses the PokeAPI to fetch the data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It uses React for state management.
+
+This page is deployed at the following link:
+
+https://luminous-kleicha-294ca6.netlify.app/
